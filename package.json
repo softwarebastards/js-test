@@ -1,0 +1,23 @@
+{
+  "name": "bastards-js-test",
+  "version": "1.0.0",
+  "description": "Result for JS Test of Software Bastards",
+  "author": "Martin Spierings",
+  "license": "MIT",
+  "main": "schema-validator.mjs",
+  "type": "module",
+  "scripts": {
+    "demo": "node demo.mjs",
+    "demo-single": "node demo-single.mjs",
+    "watch-demo": "nodemon demo.mjs",
+    "watch-demo-single": "nodemon demo-single.mjs",
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "open": "^9.1.0"
+  }
+}
