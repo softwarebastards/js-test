@@ -101,8 +101,10 @@ export class SchemaValidator {
         logDetails ? console.log('not valid', schemaKey, value, typeof value, 'should be', type) : undefined;
         valid = false;
       } else if (type === 'array' && !Array.isArray(value)) {
+        logDetails ? console.log('not valid', schemaKey, value, 'object wants to be array') : undefined;
         valid = false;
       } else if (type === 'object' && Array.isArray(value)) {
+        logDetails ? console.log('not valid', schemaKey, value, 'array wants to be object') : undefined;
         valid = false;
       }
       // TODO: Version 2.0 - search object or array for in-depth validation too

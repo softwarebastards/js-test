@@ -2,7 +2,7 @@ import { validateBars } from './examples/bars.mjs';
 // import { validateCars } from './examples/cars.mjs';
 // import { validatePersons } from './examples/persons.mjs';
 
-export async function demoSingle() {
+export function demoSingle() {
   // const allowOpen = false; // TODO
   // const logDetails = false;
 
